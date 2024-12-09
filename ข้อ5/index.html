@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitsada</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <form id="messageForm">
+            <div class="form-group">
+                <label>Message:</label>
+                <input type="text" id="messageInput" name="message" placeholder="Enter your message">
+            </div>
+            <div class="form-group">
+                <label>Select Type:</label>
+                <select id="typeSelect" name="type">
+                    <option value="">Select an option</option>
+                    <option value="Option A">Option A</option>
+                    <option value="Option B">Option B</option>
+                    <option value="Option C">Option C</option>
+                </select>
+            </div>
+            <button type="submit">ส่งข้อความ</button>
+        </form>
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

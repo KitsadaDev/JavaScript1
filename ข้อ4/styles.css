@@ -1,0 +1,17 @@
+#myList {
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+}
+
+#myList li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+#myList li:hover {
+    background-color: #e0e0e0;
+}

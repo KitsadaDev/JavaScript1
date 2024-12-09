@@ -1,0 +1,36 @@
+body {
+    /* จัดให้เนื้อหาอยู่ตรงกลางจอทั้งแนวตั้งและแนวนอน */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f2f5;
+}
+
+#btn {
+    /* สไตล์ของปุ่ม */
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+#btn:hover {
+    /* เอฟเฟกต์เมื่อเมาส์ชี้ */
+    background-color: #45a049;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+#btn:active {
+    /* เอฟเฟกต์เมื่อคลิก */
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+} 
